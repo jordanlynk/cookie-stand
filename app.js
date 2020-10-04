@@ -164,6 +164,7 @@ var lima = {
             var parent = document.getElementById('limaCookieSales');
             var listItem = document.createElement('li');
             listItem.textContent = `${this.hoursOfOperation[j]} : ${this.hourlyCookies[j]} cookies`;
+            console.log(parent);
             parent.appendChild(listItem);
     }
   }

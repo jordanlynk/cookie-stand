@@ -4,19 +4,19 @@ var seattle = {
     minCustomersPerHour: 23,
     maxCustomersPerHour: 65,
     avgCookiePerCustomer: 6.3,
-    // creates a random number of customers per hour
+
     generateCustomersPerHour: function(min, max){
         min = Math.ceil(this.minCustomersPerHour);
         max = Math.floor(this.maxCustomersPerHour);
         return Math.floor(Math.random() * (max - min + 1) + min);
     },
-    // this will calculate the amount of cookies that are sold in a given hour, based on multiplying the random # of customers and the average number of cookies sold per customer
+
     calcCookiesInHour: function (){
         return Math.round(this.generateCustomersPerHour(this.minCustomersPerHour, this.maxCustomersPerHour) * this.avgCookiePerCustomer);
     },
     hoursOfOperation: ['6:00 am','7:00 am','8:00 am','9:00 am','10:00 am','11:00 am','12:00 pm','1:00 pm','2:00 pm', '3:00 pm', '4:00 pm', '5:00 pm', '6:00 pm', '7:00 pm'],
     hourlyCookies: [],
-    // calculates the amount of cookies that are sold in a given hour for each hour in the hoursOfOperation array, returns values in the hourlyCookies array.
+
     calcCookiesPerHour: function(){
         for (var i = 0; i < this.hoursOfOperation.length; i++){
              var hourCookies = this.calcCookiesInHour();
@@ -29,7 +29,7 @@ var seattle = {
         for (var j = 0; j < this.hourlyCookies.length; j++){
             var parent = document.getElementById('seattleCookieSales');
             var listItem = document.createElement('li');
-            listItem.textContent = ` ${this.hoursOfOperation[j]} : ${this.hourlyCookies[j]} cookies`;
+            listItem.textContent = `${this.hoursOfOperation[j]} : ${this.hourlyCookies[j]} cookies`;
             parent.appendChild(listItem);
         }    
     }
@@ -62,7 +62,7 @@ var tokyo = {
         for (var j = 0; j < this.hourlyCookies.length; j++){
             var parent = document.getElementById('tokyoCookieSales');
             var listItem = document.createElement('li');
-            listItem.textContent = ` ${this.hoursOfOperation[j]} : ${this.hourlyCookies[j]} cookies`;
+            listItem.textContent = `${this.hoursOfOperation[j]} : ${this.hourlyCookies[j]} cookies`;
             parent.appendChild(listItem);
         }
     }
@@ -95,7 +95,7 @@ var tokyo = {
         for (var j = 0; j < this.hourlyCookies.length; j++){
             var parent = document.getElementById('dubaiCookieSales');
             var listItem = document.createElement('li');
-            listItem.textContent = ` ${this.hoursOfOperation[j]} : ${this.hourlyCookies[j]} cookies`;
+            listItem.textContent = `${this.hoursOfOperation[j]} : ${this.hourlyCookies[j]} cookies`;
             parent.appendChild(listItem);
     }
   }
@@ -128,7 +128,7 @@ var paris = {
         for (var j = 0; j < this.hourlyCookies.length; j++){
             var parent = document.getElementById('parisCookieSales');
             var listItem = document.createElement('li');
-            listItem.textContent = ` ${this.hoursOfOperation[j]} : ${this.hourlyCookies[j]} cookies`;
+            listItem.textContent = `${this.hoursOfOperation[j]} : ${this.hourlyCookies[j]} cookies`;
             parent.appendChild(listItem);
     }
   }
@@ -150,7 +150,9 @@ var lima = {
      hourlyCookies: [],
      calcCookiesPerHour: function(){
         for (var i = 0; i < this.hoursOfOperation.length; i++){
+            console.log(i);
              var hourCookies = this.calcCookiesInHour();
+             console.log(hourCookies);
              this.hourlyCookies.push(hourCookies);
         }
         return(this.hourlyCookies);
@@ -161,7 +163,7 @@ var lima = {
         for (var j = 0; j < this.hourlyCookies.length; j++){
             var parent = document.getElementById('limaCookieSales');
             var listItem = document.createElement('li');
-            listItem.textContent = ` ${this.hoursOfOperation[j]} : ${this.hourlyCookies[j]} cookies`;
+            listItem.textContent = `${this.hoursOfOperation[j]} : ${this.hourlyCookies[j]} cookies`;
             parent.appendChild(listItem);
     }
   }

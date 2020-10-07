@@ -193,4 +193,3 @@ bld/
 
 # End of https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode
 /curriculum/class-11/solutions/sam-2/.vscode
-/curriculum/class-11/code-demos/images-events/.vscode

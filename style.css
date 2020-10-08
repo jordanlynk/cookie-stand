@@ -1,5 +1,90 @@
 body{
   background-color: rgb(184, 94, 84);
-  width: 70%;
-  margin: auto;
 }
+header{
+background-color: rgb(77, 115, 185);
+height: 150px;
+}
+#logo{
+  height:120px;
+  width: 400px;
+  margin-top:20px;
+}
+h1{
+  display:inline-block;
+  font-size: 3em;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: 'Playfair Display', serif;
+  color: black;
+}
+h2{
+  display:inline-block;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 150px;
+  font-family: 'Playfair Display', serif;
+  color: black;
+  font-size: 1.5em;
+}
+#fish{
+  float:left;
+  margin-top: 40px;
+  width: 200px;
+  height: 350px;
+  border-radius: 100px;
+}
+#locationheader{
+  font-size: 2em;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+#locations{
+  width: 370px;
+  height: 200px;
+  position: absolute;
+  margin-left: 370px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 2em;
+  padding: 80px;
+  background-color: burlywood;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.locations{
+  display: inline-block;
+  padding: 7px;
+}
+#hours-open{
+  position:absolute;
+  margin-top: 260px;
+  margin-left: 125px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:rgb(109, 85, 85);
+  color: rgb(171, 194, 194);
+  padding: 20px;
+}
+#chinook{
+  margin-top: 50px;
+  float:right;
+  width: 400px;
+  height: 250px;
+  border-radius: 110px; 
+}
+#aboutussection{
+  position: absolute;
+  margin-top: 400px;
+  height: 220px;
+}
+#aboutfamilycontent{
+  position: absolute;
+  height: 200px;
+  border-radius: 100px;
+}
+#aboutourfamily{
+  width: 500px;
+}
+
+  

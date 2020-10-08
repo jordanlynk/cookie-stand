@@ -4,4 +4,10 @@
 
  ## Description
 
- - This is a website that will track the amount of salmon cookies sold at various locations
+ - This is a website that will track the amount of salmon cookies (yum) sold at various locations.
+
+## Tools Used
+
+- Javascript, CSS, HTML
+
+## Acknowledgements

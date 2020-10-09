@@ -2,8 +2,9 @@ body{
   background-color: rgb(184, 94, 84);
 }
 header{
-background-color: rgb(77, 115, 185);
+background-color: burlywood;
 height: 150px;
+border: groove 15px;
 }
 #logo{
   height:120px;
@@ -22,7 +23,7 @@ h1{
 h2{
   display:inline-block;
   position: absolute;
-  margin-top: 200px;
+  margin-top: 90px;
   margin-left: 150px;
   font-family: 'Playfair Display', serif;
   color: black;
@@ -33,58 +34,142 @@ h2{
   margin-top: 40px;
   width: 200px;
   height: 350px;
-  border-radius: 100px;
-}
-#locationheader{
-  font-size: 2em;
-  padding: 10px;
-  margin-bottom: 30px;
-}
-#locations{
-  width: 370px;
-  height: 200px;
-  position: absolute;
-  margin-left: 370px;
-  margin-top: 15px;
-  text-align: center;
-  font-size: 2em;
-  padding: 80px;
-  background-color: burlywood;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.locations{
-  display: inline-block;
-  padding: 7px;
+  border-radius: 120px;
+  border: dotted 2.5px
 }
 #hours-open{
   position:absolute;
-  margin-top: 260px;
-  margin-left: 125px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color:rgb(109, 85, 85);
-  color: rgb(171, 194, 194);
+  margin-top: 180px;
+  margin-right: 70px;
+  font-family: 'Playfair Display', serif;
+  background-color:burlywood;
+  color: black;
   padding: 20px;
+  border: groove 4px;
+}
+#locations{
+  width: 355px;
+  height: 330px;
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 30px;
+  background-color: burlywood;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  border: groove 5px;
+}
+#locationheader{
+  font-size: 1.3em;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.location{
+  display: inline;
+  padding: 70px;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 #chinook{
-  margin-top: 50px;
+  margin-top: 90px;
   float:right;
-  width: 400px;
+  width: 500px;
   height: 250px;
   border-radius: 110px; 
+  border: dotted 2.5px;
 }
-#aboutussection{
+#aboutfamilysection{
   position: absolute;
-  margin-top: 400px;
+  margin-top: 600px;
   height: 220px;
+}
+#familypic{
+  position: absolute;
+  margin-left: 880px;
+  height: 200px;
+  border-radius: 300px;
+  border: dotted 2.5px;
+}
+#aboutfamilycontent{
+  width: 400px;
+}
+#aboutfamilyheader{
+  text-align: center;
+  margin: 100px;
+  font-size: 1.2em;
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 35px;
+  background-color: burlywood;
+  color: black;
+  text-shadow: grey 1px;
 }
 #aboutfamilycontent{
   position: absolute;
-  height: 200px;
-  border-radius: 100px;
+  height: 325px;
+  width: 475;
+  overflow: scroll;
+  margin-left: 380px;
+  margin-top: 1px;
+  background-color: burlywood;
+  color: black;
+  font-size: 1.1em;
+
 }
-#aboutourfamily{
-  width: 500px;
+#cutter{
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 60px;
+  height: 180px;
+  border-radius: 200px;
+  border: dotted 2.5px;
+}
+#frost{
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 120px;
+  border-radius: 100px;
+  border: dotted 2.5px;
+}
+#merchsection{
+  position: absolute;
+}
+#shirt{
+  position: absolute;
+  margin-top: 940px;
+  margin-left: 900px;
+  border-radius: 90px;
+  border: dotted 2.5px;
+}
+#merch{
+  position: absolute;
+  height: 80px;
+  width: 650px;
+  margin-top: 1150px;
+  margin-left: 140px;
+  font-size: 1.3em;
+  text-align: center;
+  padding-top: 10px;
+  background-color: burlywood;
+  font-family: 'Playfair Display', serif;
+  color: black;
+  border: groove 10px;
+}
+#footerblock{
+  position: absolute;
+  margin-top: 1300px;
+  height: 160px;
+  width: 1270px;
+  background-color: burlywood;
+  border: groove 15px;
+}
+.footerinfo{
+  display:inline-block;
+  margin: 70px;
+  font-size: 1.3em;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
   

@@ -20,7 +20,7 @@ function Stores(name, minimumCustomersPerHour, maximumCustomersPerHour, averageC
   allStores.push(this);
 
 }
-
+// generate our total customers each hour
 Stores.prototype.generateCustomersEachHour = function () {
   for (var i = 0; i < storeHours.length; i++) {
     var randomNumber = Math.floor(Math.random() * (this.maximumCustomersPerHour - this.minimumCustomersPerHour + 1) + this.minimumCustomersPerHour);

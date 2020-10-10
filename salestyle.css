@@ -34,7 +34,7 @@ h2{
 }
 fieldset {
   border: grey 15px ridge;
-  width: 60%;
+  width: 50%;
   margin-top: 20px;
   justify-content: center;
   margin: auto;
@@ -49,7 +49,7 @@ fieldset {
 #maximum{
   background-color: burlywood;
 }
-#average{
+#averages{
   background-color: burlywood;
 }
 #submit{

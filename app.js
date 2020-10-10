@@ -108,7 +108,7 @@ function generateHourlyTotal(allStores) {
   trDailyTotals.appendChild(tdGrandElement);
 
 }
-
+// creating the form
 function handleSubmit(event) {
   event.preventDefault();
   console.log('this is my event.target.average', event.target.locationCookie.value);

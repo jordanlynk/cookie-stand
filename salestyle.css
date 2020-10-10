@@ -1,13 +1,12 @@
-*{
-  background-color: salmon;
+* {
+  background-color: rgb(190, 96, 86);
 }
 body {
   width: 950px;
   justify-content: center;
   margin: auto;
-  background-color: lightgrey;
 }
-h1{
+h1 {
   width:500px;
   margin-left: 250px;
   background-color: burlywood;
@@ -17,8 +16,21 @@ h1{
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
-#cookieSales{
-border: grey 15px ridge;
+
+#table, tr, th, td {
+  border: 1.5px black solid;
+  border-radius: 5%;
+  background-color:burlywood;
+}
+
+h2{
+  font-size: 40px;
+  border: 8px grey groove;
+  width: 500px;
+  text-align: center;
+  margin-left: 200px;
+  padding: 20px;
+  background-color: burlywood;
 }
 fieldset {
   border: grey 15px ridge;
@@ -26,11 +38,23 @@ fieldset {
   margin-top: 20px;
   justify-content: center;
   margin: auto;
-}
-table, tr, th, td {
-   border: 1.5px grey solid;
-   border-radius: 5%;
-}
-th {
   background-color: burlywood;
 }
+#firstname{
+  background-color: burlywood;
+}
+#minimum{
+  background-color: burlywood;
+}
+#maximum{
+  background-color: burlywood;
+}
+#average{
+  background-color: burlywood;
+}
+#submit{
+  background-color: burlywood;
+}
+
+
+

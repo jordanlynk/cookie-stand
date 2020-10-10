@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
-        <title>Sales Figures for Salmon Cookies</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="salestyle.css">
-    </head>
-    <body>
-        <header>
-            <h1>Pat's Salmon Cookies Sales Page</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home Page</a></li>
-                </ul>
-        </header>
-        <main>
-            <br>
-            <br>
-    <section id="form" >
-      <fieldset>
-        <h2>Store Sales Input:</h2>
-        <label>City:
-            <input type="text" name="city"></label></br></br>
-        <label>Minimum Customers:
-            <input type="text" name="minCustomers"></label><br><br>
-        <label>Maximum Customers:
-            <input type="text" name="maxCustomers"></label><br><br>
-        <label>Average Cookie Sales:
-            <input type="text" name="avgCookiePerCustomer"></label><br><br>
-        <button id="submit">Submit</button>
-      </fieldset> </br>
-      <section class="maindata">
-        <table id="cookieSales">
-        </table>
-      </section>
-      </form>
-        </main>
-        <footer>
 
-        </footer>
-        <script src="app.js"></script>
-    </body>
+<head>
+    <title>Sales Figures For Salmon Cookies</title>
+
+    <link href="salestyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+            </ul>
+    </header>
+    <main>
+        <h1>Salmon Cookies Sales Page</h1>
+        <table id="table"></table>
+        <br>
+        <br>
+        <section id="patsNewStore">
+            <h2>New Store Input</h2>
+            <form id="newStoreLocation">
+                <fieldset>
+                    <label id="firstname">New Store Location
+                        <input name="locationCookie" type="text" required /></br><br>
+                    </label>
+                    <label id="minimum">Minimum Cookie Sales
+                        <input name="minimumCookie" type="text" required /><br><br>
+                    </label>
+                    <label id="maximum">Maximum Cookie Sales
+                        <input name="maximumCookie" type="text" required /><br><br>
+                    </label>
+                    <label id="average">Average Cookie Sales
+                        <input name="averageCookie" type="text" required /><br><br>
+                        <button name="submit" id="submit">Submit</button>
+                    </label>
+
+                </fieldset> </br>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+
 </html>
